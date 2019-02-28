@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace baikiemtra
+namespace doantau
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Tinhtong tong = new Tinhtong();
-            tong.tinh();
-            tong.inra();
+            tau sr = new tau();
+            sr.doan();
+            sr.Inmadoantau();
             Console.ReadLine();
         }
     }
